@@ -89,7 +89,12 @@ public class ConvertorRomanoNaturalTest {
 
 	}
 	
+	@Test
+	public void deveConverterNumeroRomano_XV_paraNumeRoNatural_15() {
+		ConvertorRomanoNatural convertor = new ConvertorRomanoNatural();
+		Assert.assertEquals(15, convertor.numeroRomanoParanumeroNatural("XV"));
 
+	}
 
 
 }
