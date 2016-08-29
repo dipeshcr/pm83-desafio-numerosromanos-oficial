@@ -138,6 +138,12 @@ public class ConvertorRomanoNaturalTest {
 
 	}
 	
+	@Test
+	public void deveConverterNumeroRomano_M_paraNumeRoNatural_1000() {
+		ConvertorRomanoNatural convertor = new ConvertorRomanoNatural();
+		Assert.assertEquals(1000, convertor.numeroRomanoParanumeroNatural("M"));
+
+	}
 	
 
 
