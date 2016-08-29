@@ -18,6 +18,13 @@ public class ConvertorRomanoNaturalTest {
 		Assert.assertEquals(2, convertor.numeroRomanoParanumeroNatural("II"));
 
 	}
+	
+	@Test
+	public void deveConverterNumeroRomano_III_paraNumeRoNatural_3() {
+		ConvertorRomanoNatural convertor = new ConvertorRomanoNatural();
+		Assert.assertEquals(3, convertor.numeroRomanoParanumeroNatural("III"));
+
+	}
 
 
 }
