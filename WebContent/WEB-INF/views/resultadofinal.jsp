@@ -28,7 +28,7 @@
 		</tr>
 		<tr>
 			<td>${numeroRomano.numeroRomano}</td>
-			<td>{numero}</td>
+			<td>${numero}</td>
 
 		</tr>
 
