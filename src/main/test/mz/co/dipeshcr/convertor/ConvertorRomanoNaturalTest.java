@@ -46,6 +46,13 @@ public class ConvertorRomanoNaturalTest {
 		Assert.assertEquals(6, convertor.numeroRomanoParanumeroNatural("VI"));
 
 	}
+	
+	@Test
+	public void deveConverterNumeroRomano_VII_paraNumeRoNatural_7() {
+		ConvertorRomanoNatural convertor = new ConvertorRomanoNatural();
+		Assert.assertEquals(6, convertor.numeroRomanoParanumeroNatural("VII"));
+
+	}
 
 
 }
